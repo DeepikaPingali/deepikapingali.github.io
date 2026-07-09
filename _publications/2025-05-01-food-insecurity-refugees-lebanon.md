@@ -8,6 +8,4 @@ date: 2025-05-01
 venue: 'Food Security'
 citation: 'Lyons, A., Kass-Hanna, J., Pingali, D., Soliman, A., Zhu, D., Zhang, Y., &amp; Montoya Castano, A. (2025). "A Geospatial Analysis of Food Insecurity Among Refugee Households in Lebanon Using Machine Learning Techniques." <i>Food Security.</i>'
 ---
-Published in *Food Security*. This paper applies machine learning and geospatial methods to study food insecurity among refugee households in Lebanon. An earlier version circulated as ERF Working Paper No. 1729 (Economic Research Forum).
-
-<!-- TODO: add journal DOI/link when available; set date to actual publication month -->
+This paper applies machine learning and geospatial methods to study food insecurity among refugee households in Lebanon. An earlier version circulated as ERF Working Paper No. 1729 (Economic Research Forum).
