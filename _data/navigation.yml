@@ -1,7 +1,9 @@
-# main links — trimmed to the four sections you wanted (About is the front page)
+# main links — About is the front page
 main:
   - title: "Research"
     url: /publications/
+  - title: "Teaching"
+    url: /teaching/
   - title: "News"
     url: /year-archive/      # academicpages blog/posts archive; rename to /posts/ if your version differs
   - title: "CV"
