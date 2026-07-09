@@ -7,4 +7,4 @@ venue: "Department of Agricultural and Consumer Economics (ACE), University of I
 date: 2024-01-01
 location: "Urbana-Champaign, IL"
 ---
-Managed grading responsibilities for assignments and exams.
+I TA'd this course, mainly handling grading for assignments and exams.
