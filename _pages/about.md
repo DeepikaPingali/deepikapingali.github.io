@@ -9,9 +9,7 @@ redirect_from:
 
 I am a Ph.D. Candidate in Agricultural and Applied Economics at the University of Illinois Urbana-Champaign and a Senior Research Associate at the National Center for Supercomputing Applications (NCSA).
 
-I study how **connectedness between people and places shapes individuals' choices and socioeconomic outcomes**, including under conditions of economic and environmental stress such as climate change, conflict, and displacement. Much of my work centers on the **labor decisions of households**, from migration to the intrahousehold division of labor. I combine machine learning, geospatial methods, and causal inference.
-
-My research spans forced displacement and migration, gender and labor norms, and food security, across South Asia, the Middle East, and Latin America.
+I study how **connectedness between people and places shapes individuals' choices and socioeconomic outcomes**, particularly under conditions of economic and environmental stress such as climate change, conflict, and displacement. Much of my work centers on the **labor decisions of households**, from migration to the intrahousehold division of labor, spanning gender and labor norms, forced displacement, and food security across South Asia, the Middle East, and Latin America. I combine machine learning, geospatial methods, and causal inference to study these questions.
 
 Before my Ph.D., I spent over five years in the international development sector across South Asia, directing grassroots programs, founding a women's collective-entrepreneurship venture, and advising organizations including the World Bank, the ILO, and UNDP. That experience continues to shape the questions I ask and the communities my research centers.
 
