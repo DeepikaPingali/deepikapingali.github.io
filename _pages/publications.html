@@ -1,36 +1,31 @@
 ---
 layout: archive
-title: "Publications"
+title: "Research"
 permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
-
 {% include base_path %}
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
+<p>My research studies how connectedness between people and places shapes individuals' choices and socioeconomic outcomes, including under economic and environmental stress. Much of it centers on the labor decisions of households, from migration to the intrahousehold division of labor. I combine machine learning, geospatial methods, and causal inference. Selected work below; see my <a href="/files/cv_Pingali_Jul_2026.pdf">CV</a> for the full list.</p>
+
+<h2>Peer-Reviewed Publications</h2>
+{% for post in site.publications reversed %}
+  {% if post.category == "peer-reviewed" %}
     {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+  {% endif %}
+{% endfor %}
 
+<h2>Working Papers</h2>
+{% for post in site.publications reversed %}
+  {% if post.category == "working-papers" %}
+    {% include archive-single.html %}
+  {% endif %}
+{% endfor %}
 
-
+<h2>Works in Progress</h2>
+{% for post in site.publications reversed %}
+  {% if post.category == "works-in-progress" %}
+    {% include archive-single.html %}
+  {% endif %}
+{% endfor %}
