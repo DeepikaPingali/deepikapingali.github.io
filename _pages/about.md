@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a Ph.D. Candidate in Agricultural &amp; Consumer Economics at the University of Illinois Urbana-Champaign and a Senior Research Associate at the National Center for Supercomputing Applications (NCSA).
+I am a Ph.D. Candidate in Agricultural and Applied Economics at the University of Illinois Urbana-Champaign and a Senior Research Associate at the National Center for Supercomputing Applications (NCSA).
 
 I study how **connectedness between people and places shapes individuals' choices and socioeconomic outcomes**, including under conditions of economic and environmental stress such as climate change, conflict, and displacement. Much of my work centers on the **labor decisions of households**, from migration to the intrahousehold division of labor. I combine machine learning, geospatial methods, and causal inference.
 
