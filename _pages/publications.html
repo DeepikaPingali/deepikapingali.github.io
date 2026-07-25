@@ -1,0 +1,59 @@
+---
+layout: archive
+title: "Research"
+permalink: /publications/
+author_profile: true
+---
+
+{% include base_path %}
+
+<p>The list below is grouped by status — peer-reviewed publications, working papers, and current projects — spanning migration, displacement, and economic stress across South Asia, the Middle East, and Latin America. See my <a href="/files/cv_Pingali_Jul_2026.pdf">CV</a> for the full list.</p>
+
+<h2>Peer-Reviewed Publications</h2>
+{% for post in site.publications reversed %}
+  {% if post.category == "peer-reviewed" %}
+    {% include archive-single.html %}
+  {% endif %}
+{% endfor %}
+
+<h2>Working Papers</h2>
+{% for post in site.publications reversed %}
+  {% if post.category == "working-papers" %}
+    {% include archive-single.html %}
+  {% endif %}
+{% endfor %}
+
+<h2>Works in Progress</h2>
+{% for post in site.publications reversed %}
+  {% if post.category == "works-in-progress" %}
+    {% include archive-single.html %}
+  {% endif %}
+{% endfor %}
+
+<h2>Selected Presentations</h2>
+
+<p><em>Uncovering the Influence of Hidden Social Networks on Gendered Labor Norms: Evidence from Rural India</em> (Job Market Paper)</p>
+<ul>
+  <li>ASSA/AEA Annual Meeting, Washington, DC, January 2027 (scheduled)</li>
+</ul>
+
+<p><em>The Effect of Political Capital on Migration Decisions in the Context of Climate Change in India</em></p>
+<ul>
+  <li>Political Economy of Climate and Environment (PECE), Harvard University, Cambridge, MA, September 2026 (scheduled, poster)</li>
+  <li>Environmental and Climate Mobilities Network (ECMN), Wageningen University &amp; Research, Wageningen, Netherlands, June 2026</li>
+  <li>European Political Science Society (EPSS), Belfast, United Kingdom, June 2026</li>
+  <li>Illinois Economics Association Conference, Chicago, IL, October 2025</li>
+</ul>
+
+<p><em>Gender Disparities in Financial and Digital Financial Inclusion: Insights from PISA Data</em></p>
+<ul>
+  <li>Congreso Internacional en Alfabetización Financiera, Online, November 2025</li>
+  <li>International Conference on Empirical Economics, Penn State Altoona (Online), August 2025</li>
+  <li>Illinois Economics Association Conference, Chicago, IL, October 2024</li>
+</ul>
+
+<p><em>A Geospatial Analysis of Food Insecurity Among Refugee Households in Lebanon Using Machine Learning Techniques</em></p>
+<ul>
+  <li>ERF 30th Annual Conference, Rabat, Morocco, April 2024 (presented by A. Lyons)</li>
+  <li>Illinois Economics Association Conference, Chicago, IL, October 2024</li>
+</ul>

@@ -1,0 +1,10 @@
+# main links — About is the front page
+main:
+  - title: "Research"
+    url: /publications/
+  - title: "Teaching"
+    url: /teaching/
+  - title: "News"
+    url: /year-archive/      # academicpages blog/posts archive; rename to /posts/ if your version differs
+  - title: "CV"
+    url: /files/cv_Pingali_Jul_2026.pdf   # links straight to your PDF; no CV page to maintain
